@@ -1,0 +1,44 @@
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.question {
+  width: 30rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(180deg, #0f5d65 0%, #3e3b3b 100%);
+  padding: 1rem 1rem;
+  margin: 0.5rem;
+  align-self: flex-end;
+}
+
+.question p {
+  margin: 0;
+  color: #f2f2f2;
+  text-align: right;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 111.111% */
+  letter-spacing: 0.03125rem;
+}
+
+.answer {
+  width: 25em;
+  border-radius: 1.25rem;
+  background: #3e3b3b;
+  padding: 1rem 1rem;
+  margin: 0.5rem;
+  align-self: flex-start;
+}
+
+.answer p {
+  margin: 0;
+  color: #f2f2f2;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem; /* 111.111% */
+  letter-spacing: 0.04rem;
+}
